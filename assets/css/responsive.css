@@ -1,0 +1,127 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+	.team-area-content {
+		width: 78%;
+		margin-bottom: 50px;
+	}
+	.is-sticky .main-menu {
+		height: 115px;
+	}
+	.main-menu .navbar-brand {
+	  padding: 7px 303px;
+	  margin-bottom: 19px;
+	}
+	.main-menu .navbar-nav li a {
+		padding: 5px 15px;
+	}
+	.main-menu .navbar-nav {
+		float: right;
+		padding-right: 40px;
+	}
+	.work-area-content img {
+		width: 25.1%;
+	}
+	.footer-area-menu li a {
+		font-size: 14px;
+	}
+	.footer-area-menu {
+		margin-top: 30px;
+	}
+	.footer-area-right input {
+		width: 70%;
+		margin-left: 67px;
+	}
+	.footer-area-right {
+		margin-top: 62px;
+		text-align: center;
+	}
+	.footer-area-copyright {
+		text-align: center;
+		font-weight: 700;
+	}
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+	.main-menu .navbar-toggle {
+		border-color: #00cccc;
+		margin-top: 25px;
+	}
+	.main-menu .navbar-toggle .icon-bar {
+		background-color: #00cccc;
+	}
+	.main-menu .navbar-nav {
+		background: rgba(0,0,0, .7);
+		width: 114%;
+		margin-top: 0px;
+		text-align: center;
+	}
+	.main-menu .navbar-nav li a {
+		padding: 9px 32px;
+	}
+	.slider-item-content h1 {
+		font-size: 25px;
+	}
+	.about-content {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.team-area-content {
+		width: 67%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.work-area-text h2 {
+		font-size: 17px;
+	}
+	.work-area-content img {
+		width: 50.5%;
+	}
+	.contact-area-form {
+		text-align: center;
+	}
+	.contact-area-ad {
+		text-align: center;
+		margin-top: 60px;
+	}
+	#footer-area {
+		text-align: center;
+	}
+	.footer-area-menu li a {
+		font-size: 12px;
+	}
+	.footer-area-menu {
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	.footer-area-center h3, .footer-area-right h3 {
+		margin-bottom: 20px;
+	}
+	.footer-area-center {
+		margin-bottom: 60px;
+	}
+	.footer-area-right input {
+		width: 60%;
+		margin-left: 16px;
+	}
+	.footer-area-copyright {
+		text-align: center;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 360px) { 
+    .footer-area-right-icon a {
+        width: 40px;
+        height: 40px;
+        padding: 9px;
+    }
+
+}
